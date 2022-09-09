@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>留言板</title>
+		<link rel="stylesheet" href="css/style.css"/>
+	</head>
+	<body>
+		<div class="container">
+			<!-- 提交留言部分 -->
+			<div class="comment-box">
+				<button class="btn-close">关闭留言</button>
+				<div class="comment-form">
+					<div class="header">留言板</div>
+					<div><input type="text" id="name" placeholder="请输入您的姓名"/></div>
+					<div><textarea name="" id="comment" cols="30" rows="3" placeholder="请输入您的留言"></textarea></div>
+					<button id="btn-submit">留言</button>
+				</div>
+			</div>
+			<!-- 留言列表部分 -->
+			<div class="comment-list">
+				<h4 class="header">留言列表</h4>
+				<div id="comments">
+					<hr>
+					<h4>
+						<span>姓名</span>
+						<span class="data">日期</span>
+					</h4>
+					<p>留言内容1</p>
+				</div>
+			</div>
+		</div>
+		<script src="js/script.js"></script>
+	</body>
+</html>
